@@ -7,22 +7,23 @@
 ## Install
 
 ```bash
-npm install --save react-loading-spinners
+npm install --save react-loading-spinnerss
 ```
+
+## Demo
+
+<a href="https://codesandbox.io/s/async-field-bitvrg?file=/src/App.js"> demo</a>
 
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
-
-import MyComponent from 'react-loading-spinners'
-import 'react-loading-spinners/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
+import React from 'react'
+import Spinner from 'react-loading-spinners'
+const App = () => {
+  return <Spinner />
 }
+
+export default App
 ```
 
 ## License
