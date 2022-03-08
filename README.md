@@ -17,13 +17,19 @@ npm install --save react-loading-spinnerss
 ## Usage
 
 ```jsx
-import React from 'react'
-import Spinner from 'react-loading-spinners'
-const App = () => {
-  return <Spinner />
+import "./styles.css";
+import Spinner from "react-loading-spinnerss";
+import "react-loading-spinnerss/dist/index.css";
+
+export default function App() {
+  return (
+    <div className="App">
+      <h1>Loader Demo</h1>
+      <Spinner />
+    </div>
+  );
 }
 
-export default App
 ```
 
 ## License
