@@ -17,7 +17,6 @@ npm install --save react-loading-spinnerss
 ## Usage
 
 ```jsx
-import "./styles.css";
 import Spinner from "react-loading-spinnerss";
 import "react-loading-spinnerss/dist/index.css";
 
